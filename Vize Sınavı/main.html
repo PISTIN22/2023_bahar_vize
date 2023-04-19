@@ -1,0 +1,53 @@
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css" />
+    <script src="https://kit.fontawesome.com/3690223341.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+
+<body>
+
+    <section class="arama-kismi" id="ilkKisim" style="display: block;">
+        <div class="block-container centered" style="width: 50%;">
+            <h1 class="arama-basligi">
+                Developer Search
+            </h1>
+            <p>
+                Aranacak Kişinin Adını Giriniz:
+            </p>
+            <input type="text" id="textbox">
+            <button onclick="arama()" class="ara-button" id="SearchButton">Ara</button>
+        </div>
+    </section>
+
+    <section class="arama-sonucu" id="ikinciKisim" style="display: none;">
+        <div class="block-container centered" style="width: 30%;">
+            <h1 class="arama-basligi">
+                Developer Search
+            </h1>
+            <h2 id="KullaniciIsmi">
+                isim
+            </h2>
+            <p id="desc">
+                Yeteneği
+            </p>
+            <img src="" alt="" id="resim">
+            <h3 class="yetenekler">
+                Yetenekler
+            </h3>
+            <ul id="yetenek">
+            </ul>
+            <a onclick="gerigit()" class="tekrar-ara" id="tekrarAra">
+                Tekrar ara
+            </a>
+        </div>
+    </section>
+    <script src="app.js"></script>
+</body>
+
+</html>

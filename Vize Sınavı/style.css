@@ -1,0 +1,80 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.block-container {
+    display: block;
+    text-align: left;
+    background-color: #eeeeee;
+    width: 600px;
+    padding: 2%;
+    border-radius: 10px;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.ara-button {
+    background-color: orange;
+    color: aliceblue;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 2%;
+    transition: all 1s ease-in-out;
+}
+
+.ara-button:hover {
+    transform: scale(1.15);
+    opacity: 0.8;
+    background-color: aquamarine;
+    color: black;
+}
+
+.arama-basligi {
+    color: orange;
+    text-align: center;
+}
+
+input[type="text"] {
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+}
+
+input[type="text"]:focus {
+    outline: none;
+}
+
+img {
+    border-radius: 5px;
+    user-select: none;
+    -moz-user-select: none;
+}
+
+a {
+    text-decoration: none;
+    color: orange;
+    cursor: pointer;
+}
+a:hover{
+    transform: scale(1.15);
+    color: rgb(162, 0, 0);
+    transition: all 1s ease-in-out;
+}
+
+.arama-sonucu {
+    justify-content: left;
+    text-align: left;
+}
+.arama-kismi{
+    justify-content: left;
+    text-align: left;
+}
